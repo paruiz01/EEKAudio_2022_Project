@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6BACE816-F7B4-4BA0-B49F-68F9A12912F3}" SchemaVersion="103" RootDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" ParentDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}">
+	<Events>
+		<WorkUnit Name="UI" ID="{6BACE816-F7B4-4BA0-B49F-68F9A12912F3}" OwnerID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{AD92AB8D-ED8B-4AD4-BC5E-586AF322E1A7}">
+					<ChildrenList>
+						<Action Name="" ID="{FD0EDC9C-E427-4B11-9BE6-3E6A8393AF1A}" ShortID="949819192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{79FE2E5F-46B4-4CD9-B020-9935C7A2F748}" WorkUnitID="{07671EE2-6801-4028-B69A-06847A43722D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{B240F1AE-2CB3-45FD-9326-68DEB1409615}">
+					<ChildrenList>
+						<Action Name="" ID="{43034310-6DA6-49A8-A5D6-1B4F8B808FDE}" ShortID="650356394">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shuffle" ID="{76731D93-15A6-4BB9-9282-302E005DB897}" WorkUnitID="{07671EE2-6801-4028-B69A-06847A43722D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

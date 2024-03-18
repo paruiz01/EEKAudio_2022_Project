@@ -5,53 +5,65 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1019858265",
+    "Hash": "536301914",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
-    "IncludedAuxBusses": [
+    "GameParameters": [
      {
-      "Id": "1697398818",
-      "Name": "CaveReverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\CaveReverb",
-      "GUID": "{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\SFXVolume",
+      "GUID": "{08AE453C-8E97-44B5-AFCD-0B5607D5C3DE}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MusicVolume",
+      "GUID": "{E94127B7-6988-4111-9BB7-0E09F3BC95E0}"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MasterVolume",
+      "GUID": "{FBA6A21F-9978-46B9-A878-7AE5EF21475D}"
      }
     ],
     "StateGroups": [
      {
-      "Id": "1697398818",
-      "Name": "CaveReverb",
-      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb",
-      "GUID": "{62F7C846-EA92-462C-9F4E-7B3474524FDE}",
+      "Id": "2213237662",
+      "Name": "Underwater",
+      "ObjectPath": "\\States\\Default Work Unit\\Underwater",
+      "GUID": "{D2BA624B-B592-4F4D-A207-B1D23EDB540B}",
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\None",
-        "GUID": "{9BE472C1-7012-44DA-9381-6EF282B2097B}"
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\None",
+        "GUID": "{5ECE94BC-2814-4477-AD10-CFD89138283A}"
        },
        {
-        "Id": "717767040",
-        "Name": "CaveReverb_Enabled",
-        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
-        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+        "Id": "2802431236",
+        "Name": "Underwater_Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_Off",
+        "GUID": "{FE4750B4-16BF-478C-9BDC-4403C0604A0E}"
        },
        {
-        "Id": "2218728873",
-        "Name": "CaveReverb_Disabled",
-        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
-        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+        "Id": "2294733406",
+        "Name": "Underwater_On",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_On",
+        "GUID": "{A771854F-7474-4607-A2BA-C4B9E5296D06}"
        }
       ]
      },

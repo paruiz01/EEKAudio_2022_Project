@@ -14,7 +14,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+									<ObjectRef Name="SFX" ID="{0EFC472D-4323-4555-9A66-9309494F68F7}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

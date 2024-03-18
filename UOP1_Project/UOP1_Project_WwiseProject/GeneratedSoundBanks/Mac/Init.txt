@@ -17,19 +17,15 @@ State	ID	Name	State Group			Notes
 	4139276889	Mus_Field_Farms	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	712694220	CaveReverb_Enabled	CaveReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb		
 	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\SFX\Ambient	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
-
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1697398818	CaveReverb			\Default Work Unit\Master Audio Bus\SFX\CaveReverb	
-
-Effect plug-ins	ID	Name	Type				Notes
-	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "C:\\Users\\ender\\Documents\\GitHub\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "SFX",
-    "Hash": "2194326956",
+    "Hash": "266336612",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -58,6 +58,93 @@
       ]
      },
      {
+      "Id": "1730208058",
+      "Name": "Player_Footsteps",
+      "ObjectPath": "\\Events\\Player\\Player_Footsteps",
+      "GUID": "{86F9734D-D339-42D8-8E6F-9BED091DE984}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.334376",
+      "DurationMax": "2.011062",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "650432725",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Footsteps_Water.wav",
+        "Path": "SFX\\Player\\Player_Footsteps_Water_10C4C929.wem"
+       },
+       {
+        "Id": "886064675",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Footsteps_Beach.wav",
+        "Path": "SFX\\Player\\Player_Footsteps_Beach_10C4C929.wem"
+       },
+       {
+        "Id": "898775125",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Footsteps_Rock.wav",
+        "Path": "SFX\\Player\\Player_Footsteps_Rock_10C4C929.wem"
+       },
+       {
+        "Id": "1044994497",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Footsteps_Grass.wav",
+        "Path": "SFX\\Player\\Player_Footsteps_Grass_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{1FAB471D-E4B1-420C-A3E5-477FCD115207}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{1FAB471D-E4B1-420C-A3E5-477FCD115207}",
+        "Media": [
+         {
+          "Id": "886064675"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{175D5227-9121-4501-9FB1-F9C3436BCE9C}",
+        "Media": [
+         {
+          "Id": "1044994497"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{74FBE883-4FB6-4820-A299-53FFA0C3E1C1}",
+        "Media": [
+         {
+          "Id": "650432725"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{671CF8B9-10A9-42F7-A37F-AE1D488932BE}",
+        "Media": [
+         {
+          "Id": "898775125"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2675089675",
+      "Name": "Player_Talk",
+      "ObjectPath": "\\Events\\Player\\Player_Talk",
+      "GUID": "{59794FA4-EBA8-4508-9473-A2835FAF6FE5}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.68712",
+      "DurationMax": "2.68712",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "636381770",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Talk.wav",
+        "Path": "SFX\\Player\\Player_Talk_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3170972326",
       "Name": "Scene_Change",
       "ObjectPath": "\\Events\\Control\\Scene_Change",
@@ -66,6 +153,48 @@
       "DurationType": "OneShot",
       "DurationMin": "0.",
       "DurationMax": "0."
+     },
+     {
+      "Id": "2249769530",
+      "Name": "UI_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Click",
+      "GUID": "{AD92AB8D-ED8B-4AD4-BC5E-586AF322E1A7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.54",
+      "DurationMax": "0.54",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "877726317",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Click.wav",
+        "Path": "SFX\\UI\\UI_Click_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "592624029",
+      "Name": "UI_Shuffle",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Shuffle",
+      "GUID": "{B240F1AE-2CB3-45FD-9326-68DEB1409615}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.54",
+      "DurationMax": "0.54",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "281300932",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Shuffle.wav",
+        "Path": "SFX\\UI\\UI_Shuffle_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "636381770",
+      "Language": "SFX",
+      "ShortName": "Player\\Player_Talk.wav",
+      "Path": "SFX\\Player\\Player_Talk_10C4C929.wem"
      }
     ],
     "StateGroups": [
@@ -82,6 +211,40 @@
       "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
       "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}",
       "States": []
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{3AA11DA2-82A7-42B8-BDF6-7B648F66EB84}",
+      "Switches": [
+       {
+        "Id": "547160665",
+        "Name": "Surface_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Grass",
+        "GUID": "{175D5227-9121-4501-9FB1-F9C3436BCE9C}"
+       },
+       {
+        "Id": "1897702823",
+        "Name": "Surface_Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Sand",
+        "GUID": "{1FAB471D-E4B1-420C-A3E5-477FCD115207}"
+       },
+       {
+        "Id": "1810448540",
+        "Name": "Surface_Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Stone",
+        "GUID": "{671CF8B9-10A9-42F7-A37F-AE1D488932BE}"
+       },
+       {
+        "Id": "3248230778",
+        "Name": "Surface_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Water",
+        "GUID": "{74FBE883-4FB6-4820-A299-53FFA0C3E1C1}"
+       }
+      ]
      }
     ]
    }

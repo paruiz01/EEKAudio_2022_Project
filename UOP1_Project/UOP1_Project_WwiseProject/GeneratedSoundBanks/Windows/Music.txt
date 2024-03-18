@@ -3,3 +3,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
 	3991942870	Music			\Music\Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40301397	Music_Glade	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Glade_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Glade\Music_Glade		3993693
+	250866822	Music_Forest	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Forest_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Forest\Music_Forest\Music_Forest		3492437
+	275436597	Music_Beach	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Beach_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Beach\Music_Beach\Music_Beach		3257907
+	462939257	Music_MainTheme	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_MainTheme_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_MainTheme\Music_MainTheme\Music_MainTheme		2581857
+

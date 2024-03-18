@@ -14,13 +14,32 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Health" ID="{7CEA2590-3DFE-410B-BD98-71D16646CE1F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{E94127B7-6988-4111-9BB7-0E09F3BC95E0}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{08AE453C-8E97-44B5-AFCD-0B5607D5C3DE}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{FBA6A21F-9978-46B9-A878-7AE5EF21475D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 						<CurrentStateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
 						<CurrentStateRef Name="Mus_Field_Farms" ID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Surface_Grass" ID="{175D5227-9121-4501-9FB1-F9C3436BCE9C}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -5,8 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Creatures" ID="{8B04D5D9-6629-404A-BAC5-3EBA3ABEEED9}" WorkUnitID="{8B04D5D9-6629-404A-BAC5-3EBA3ABEEED9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player talking" ID="{62201759-6DA2-4358-A0AF-905F1CA852F3}" WorkUnitID="{508C4FBC-932C-4D64-8BED-1BF0629EE7AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="2DAmbience" ID="{4124180D-DE98-443E-AE71-A4A79458DEF5}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{79AF748C-B6AD-4440-B03A-0AD1C9BD8E00}" WorkUnitID="{79AF748C-B6AD-4440-B03A-0AD1C9BD8E00}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="3DAmbience" ID="{329A0D69-8C92-47D6-A624-F43C0773BA26}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Creatures" ID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}" WorkUnitID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC" ID="{17484F30-2F40-4D31-9029-0969F0A3567B}" WorkUnitID="{17484F30-2F40-4D31-9029-0969F0A3567B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" WorkUnitID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -14,6 +22,7 @@
 				<SoundBank Name="Music" ID="{33846118-30EB-491F-BA51-6B900B7B3237}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,5 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\Default Work Unit\UI\UI_Shuffle	
+	1730208058	Player_Footsteps			\Player\Player_Footsteps	
 	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
 	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+	2675089675	Player_Talk			\Player\Player_Talk	
 	3170972326	Scene_Change			\Control\Scene_Change	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	281300932	UI_Shuffle	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI\UI_Shuffle_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		51904
+	636381770	Player_Talk	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player\Player_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player talking\Player_Talk		474072
+	650432725	Player_Footsteps_Water	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player\Player_Footsteps_Water_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water		59048
+	877726317	UI_Click	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI\UI_Click_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		51904
+	886064675	Player_Footsteps_Beach	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player\Player_Footsteps_Beach_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach		193126
+	898775125	Player_Footsteps_Rock	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player\Player_Footsteps_Rock_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rock		79586
+	1044994497	Player_Footsteps_Grass	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player\Player_Footsteps_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass		154036
 

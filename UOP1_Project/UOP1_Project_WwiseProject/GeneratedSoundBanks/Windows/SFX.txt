@@ -1,5 +1,95 @@
 Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\Default Work Unit\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Ambience\2DAmbience\Amb_Field_Farms	
+	816303795	Player_Grab			\Player\Player_Grab	
+	859052727	Amb_Beach			\Ambience\2DAmbience\Amb_Beach	
+	1363577934	Player_Jump_LiftOff			\Player\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Player\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Player\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\Creatures\Critter_Plant_GettingHit	
 	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
 	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Creatures\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Ambience\2DAmbience\Amb_Field_Hill	
+	2060690880	Player_Water_Splash			\Player\Player_Water_Splash	
+	2179654399	Pause_Menu_Off			\Music\Pause_Menu_Off	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+	2565812264	Amb_torch			\Ambience\3DAmbience\Amb_torch	
+	2644861617	Amb_Trees			\Ambience\3DAmbience\Amb_Trees	
+	2675089675	Player_Talk			\Player\Player_Talk	
+	2824512041	Player_Attack			\Player\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Creatures\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Creatures\Critter_Plant_Death	
+	2971175702	Townsfolk_Female_Talk			\NPC\Townsfolk_Female_Talk	
 	3170972326	Scene_Change			\Control\Scene_Change	
+	3207324726	Amb_Fire			\Ambience\3DAmbience\Amb_Fire	
+	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
+	3484321931	Player_Heartbeat			\Player\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambience\3DAmbience\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambience\3DAmbience\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Player\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Player\Player_GetHit	
+	3991942870	Music			\Music\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Health	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40301397	Music_Glade	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Glade_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Glade\Music_Glade		3993693
+	99385990	Player_Attack	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Attack		10208
+	141001355	Amb_torch	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ambience\Amb_torch		364608
+	237600837	Amb_Cave	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Cave_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ambience\Amb_Cave		6432832
+	250866822	Music_Forest	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Forest_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Forest\Music_Forest\Music_Forest		3492437
+	275436597	Music_Beach	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Beach_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Beach\Music_Beach\Music_Beach		3257907
+	281300932	UI_Shuffle	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI\UI_Shuffle_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		51904
+	302599201	Player_Heartbeat	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Heartbeat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Heartbeat		524224
+	364806651	NPC_Hare_Talk	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\NPC_Hare_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC talking\NPC_Hare_Talk		758476
+	407866507	Player_Die	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Die_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Die		379268
+	420573108	Critter_Plant_Death	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Enemy\Critter_Plant_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Creatures\Creature\Creature actions\Critter_Plant_Death		1422088
+	426812253	Amb_Fire	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Fire_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ambience\Amb_Fire		847936
+	441944304	Player_GetHit	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_GetHit_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_GetHit		10208
+	454685704	Amb_Ocean	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Ocean_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ambience\Amb_Ocean		714412
+	462939257	Music_MainTheme	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_MainTheme_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_MainTheme\Music_MainTheme\Music_MainTheme		2581857
+	475515505	Amb_Field_Hill	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Field_Hill_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\Ambience\Amb_Field_Hill		11712064
+	530526672	Townsfolk_Male_Talk	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Townsfolk_Male_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC talking\Townsfolk_Male_Talk		1137680
+	542239091	Player_Water_Splash	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Water_Splash_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Water_Splash		79088
+	611048671	Amb_Beach	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Beach_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\Ambience\Amb_Beach		72406304
+	633516606	Amb_Trees	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Trees_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ambience\Amb_Trees		13090880
+	636381770	Player_Talk	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player talking\Player_Talk		474072
+	638218596	NPC_Hare_Song_Long	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\NPC_Hare_Song_Long_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC talking\NPC_Hare_Song_Long		3573340
+	650432725	Player_Footsteps_Water	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Footsteps_Water_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water		59048
+	668243580	Critter_Plant_Idle	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Enemy\Critter_Plant_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Creatures\Creature\Creature actions\Critter_Plant_Idle		1706488
+	673975220	Critter_Plant_Attack	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Enemy\Critter_Plant_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Creatures\Creature\Creature actions\Critter_Plant_Attack		948080
+	692087778	Townsfolk_Female_Talk	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Townsfolk_Female_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC talking\Townsfolk_Female_Talk		1137680
+	750815387	Critter_Plant_GettingHit	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Enemy\Critter_Plant_GettingHit_10C4C929.wem		\Actor-Mixer Hierarchy\Creatures\Creature\Creature actions\Critter_Plant_GettingHit		568872
+	808271306	Amb_Field_Farms	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\Amb_Field_Farms_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\Ambience\Amb_Field_Farms		11429080
+	821779127	Player_Grab	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Grab_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Grab		12116
+	877726317	UI_Click	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI\UI_Click_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		51904
+	886064675	Player_Footsteps_Beach	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Footsteps_Beach_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach		193126
+	898775125	Player_Footsteps_Rock	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Footsteps_Rock_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rock		79586
+	959634444	Player_Jump_Landing	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Jump_Landing_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Jump_Landing		62428
+	969531560	Player_Jump_LiftOff	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Jump_LiftOff_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player actions\Player_Jump_LiftOff		12374
+	1044994497	Player_Footsteps_Grass	C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Footsteps_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass		154036
 

@@ -90,6 +90,13 @@
 				</Attenuation>
 				<Attenuation Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" ShortID="1068088388">
 					<PropertyList>
+						<Property Name="ConeInnerAngle" Type="int32" Value="80"/>
+						<Property Name="ConeOuterAngle" Type="int32" Value="160"/>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>

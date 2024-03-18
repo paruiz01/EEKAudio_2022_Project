@@ -5,11 +5,6 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Main_Music" ID="{8C37D3B6-38C7-4FED-80AA-0B726ACA7D62}" ShortID="62884481">
 					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -30,6 +25,11 @@
 						<MusicSegment Name="Music_FinalTheme_01" ID="{5E02275B-07E7-47F3-B685-31F200351CAA}" ShortID="453253117">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="134400"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -114,6 +114,11 @@
 						<MusicSegment Name="Music_FinalTheme_02" ID="{3579F535-E625-49AE-A471-D98F6DD5D6E7}" ShortID="477504165">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="40800"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -198,6 +203,11 @@
 						<MusicSegment Name="Music_FinalTheme_03" ID="{D5A91158-F9A4-4060-B179-02D6F1D3C9A8}" ShortID="827506035">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="19200"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -366,6 +376,11 @@
 						<MusicSegment Name="Music_Path" ID="{84C8555E-892C-413D-A167-C11D6629596D}" ShortID="459624217">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="129600"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -450,6 +465,11 @@
 						<MusicSegment Name="Music_Town" ID="{EB61E50C-F154-43C7-9FE8-724DD321355D}" ShortID="729317401">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="326400"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -898,6 +918,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Credits" ID="{CE1193E0-2D1E-41BE-8679-9872232BB270}" ShortID="157573969">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>

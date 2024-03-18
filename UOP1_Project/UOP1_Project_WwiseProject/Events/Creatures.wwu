@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8B04D5D9-6629-404A-BAC5-3EBA3ABEEED9}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Creatures" ID="{8B04D5D9-6629-404A-BAC5-3EBA3ABEEED9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Critter_Plant_Idle" ID="{D0301400-741A-40C0-974B-0676431B66C7}">
+					<ChildrenList>
+						<Action Name="" ID="{68A7B90C-95C0-45B8-ADCF-BEF1C6504B93}" ShortID="137342237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Idle" ID="{70EBC261-4FB2-4433-81F9-CE2D57447E92}" WorkUnitID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Attack" ID="{63EE1547-1017-4E35-8183-B166F7D4D491}">
+					<ChildrenList>
+						<Action Name="" ID="{988ECE0D-7F26-4DB0-9FB8-59F8BADA02E9}" ShortID="801819496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Attack" ID="{EF73C69B-1AFC-4E51-B983-F29BD3DA5E63}" WorkUnitID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_GettingHit" ID="{94E944EA-E30E-4225-BF20-131178D71632}">
+					<ChildrenList>
+						<Action Name="" ID="{68EB54DB-F7E6-4EFC-80F7-750319BEDC30}" ShortID="610459523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_GettingHit" ID="{5CBFA937-1E13-4701-B3BD-ED45C98EE24D}" WorkUnitID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Death" ID="{7EA55F36-6D2A-46CD-AC0E-D0E20E619DA3}">
+					<ChildrenList>
+						<Action Name="" ID="{C4CF8C74-E9DB-4917-96E7-F7986EC98752}" ShortID="327566418">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Death" ID="{AE003C64-E12F-4458-965A-8E1F0D416AE7}" WorkUnitID="{AB5820E1-954E-49F6-88BC-0A556B41B8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

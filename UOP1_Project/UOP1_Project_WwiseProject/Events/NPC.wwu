@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{17484F30-2F40-4D31-9029-0969F0A3567B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPC" ID="{17484F30-2F40-4D31-9029-0969F0A3567B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="NPC_Hare_Song_Long" ID="{21451028-8A12-4B83-B3B1-435F710A8EFB}">
+					<ChildrenList>
+						<Action Name="" ID="{7A3A80A1-EF53-46FF-80CC-A84BE30A60C3}" ShortID="965199810">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NPC_Hare_Song_Long" ID="{F3BDCB16-2B22-4ABE-8558-26A74E7D964F}" WorkUnitID="{9FD21418-7B03-46D8-B20F-3AE0656FAFF4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NPC_Hare_Talk" ID="{989E0357-9A8A-460B-8A50-16D379FFC99D}">
+					<ChildrenList>
+						<Action Name="" ID="{4493C26A-37B2-4BD5-975B-59C3435F527A}" ShortID="225616469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NPC_Hare_Talk" ID="{F9AB1133-0218-47A3-AE64-2CE2BBA13F90}" WorkUnitID="{9FD21418-7B03-46D8-B20F-3AE0656FAFF4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Female_Talk" ID="{8E8EF9DE-3882-42CD-89A5-8F6C35AC5168}">
+					<ChildrenList>
+						<Action Name="" ID="{A76D655A-7715-45A5-8F2C-B2BFF5EDDF98}" ShortID="991164361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Townsfolk_Female_Talk" ID="{7D3D05D0-5467-419F-878D-A60BE4D226FD}" WorkUnitID="{9FD21418-7B03-46D8-B20F-3AE0656FAFF4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Male_Talk" ID="{FD2DAC37-3C5B-48C8-9F0A-405DFDD670BC}">
+					<ChildrenList>
+						<Action Name="" ID="{E9E60CFE-8795-43EE-ADCA-7318E0CD4F62}" ShortID="880178704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Townsfolk_Male_Talk" ID="{7B3D5D1C-E4C8-482A-98DC-DA7F6627A487}" WorkUnitID="{9FD21418-7B03-46D8-B20F-3AE0656FAFF4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

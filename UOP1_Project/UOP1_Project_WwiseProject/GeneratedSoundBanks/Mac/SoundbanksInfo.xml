@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\ender\Documents\GitHub\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="2194326956">
+		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="266336612">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -26,8 +26,81 @@
 						<ActionSetStateEntry Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Player\Player_Footsteps" GUID="{86F9734D-D339-42D8-8E6F-9BED091DE984}" DurationType="OneShot" DurationMin="0.334376" DurationMax="2.011062">
+					<IncludedMemoryFiles>
+						<File Id="650432725" Language="SFX">
+							<ShortName>Player\Player_Footsteps_Water.wav</ShortName>
+							<Path>SFX\Player\Player_Footsteps_Water_10C4C929.wem</Path>
+						</File>
+						<File Id="886064675" Language="SFX">
+							<ShortName>Player\Player_Footsteps_Beach.wav</ShortName>
+							<Path>SFX\Player\Player_Footsteps_Beach_10C4C929.wem</Path>
+						</File>
+						<File Id="898775125" Language="SFX">
+							<ShortName>Player\Player_Footsteps_Rock.wav</ShortName>
+							<Path>SFX\Player\Player_Footsteps_Rock_10C4C929.wem</Path>
+						</File>
+						<File Id="1044994497" Language="SFX">
+							<ShortName>Player\Player_Footsteps_Grass.wav</ShortName>
+							<Path>SFX\Player\Player_Footsteps_Grass_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{1FAB471D-E4B1-420C-A3E5-477FCD115207}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1FAB471D-E4B1-420C-A3E5-477FCD115207}">
+							<Media>
+								<File Id="886064675"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{175D5227-9121-4501-9FB1-F9C3436BCE9C}">
+							<Media>
+								<File Id="1044994497"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74FBE883-4FB6-4820-A299-53FFA0C3E1C1}">
+							<Media>
+								<File Id="650432725"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{671CF8B9-10A9-42F7-A37F-AE1D488932BE}">
+							<Media>
+								<File Id="898775125"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2675089675" Name="Player_Talk" ObjectPath="\Events\Player\Player_Talk" GUID="{59794FA4-EBA8-4508-9473-A2835FAF6FE5}" DurationType="OneShot" DurationMin="2.68712" DurationMax="2.68712">
+					<IncludedMemoryFiles>
+						<File Id="636381770" Language="SFX">
+							<ShortName>Player\Player_Talk.wav</ShortName>
+							<Path>SFX\Player\Player_Talk_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3170972326" Name="Scene_Change" ObjectPath="\Events\Control\Scene_Change" GUID="{07C77A48-4161-4733-9374-1E25B5B1642D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI\UI_Click" GUID="{AD92AB8D-ED8B-4AD4-BC5E-586AF322E1A7}" DurationType="OneShot" DurationMin="0.54" DurationMax="0.54">
+					<IncludedMemoryFiles>
+						<File Id="877726317" Language="SFX">
+							<ShortName>UI\UI_Click.wav</ShortName>
+							<Path>SFX\UI\UI_Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="592624029" Name="UI_Shuffle" ObjectPath="\Events\Default Work Unit\UI\UI_Shuffle" GUID="{B240F1AE-2CB3-45FD-9326-68DEB1409615}" DurationType="OneShot" DurationMin="0.54" DurationMax="0.54">
+					<IncludedMemoryFiles>
+						<File Id="281300932" Language="SFX">
+							<ShortName>UI\UI_Shuffle.wav</ShortName>
+							<Path>SFX\UI\UI_Shuffle_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="636381770" Language="SFX">
+					<ShortName>Player\Player_Talk.wav</ShortName>
+					<Path>SFX\Player\Player_Talk_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<StateGroups>
 				<StateGroup Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}">
 					<States/>
@@ -36,22 +109,22 @@
 					<States/>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{3AA11DA2-82A7-42B8-BDF6-7B648F66EB84}">
+					<Switches>
+						<Switch Id="547160665" Name="Surface_Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Grass" GUID="{175D5227-9121-4501-9FB1-F9C3436BCE9C}"/>
+						<Switch Id="1897702823" Name="Surface_Sand" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Sand" GUID="{1FAB471D-E4B1-420C-A3E5-477FCD115207}"/>
+						<Switch Id="1810448540" Name="Surface_Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Stone" GUID="{671CF8B9-10A9-42F7-A37F-AE1D488932BE}"/>
+						<Switch Id="3248230778" Name="Surface_Water" ObjectPath="\Switches\Default Work Unit\Footsteps\Surface_Water" GUID="{74FBE883-4FB6-4820-A299-53FFA0C3E1C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1704200303">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1651596270">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-			<IncludedAuxBusses>
-				<AuxBus Id="1697398818" Name="CaveReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb" GUID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"/>
-			</IncludedAuxBusses>
 			<StateGroups>
-				<StateGroup Id="1697398818" Name="CaveReverb" ObjectPath="\States\Default Work Unit\CaveReverb" GUID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CaveReverb\None" GUID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
-						<State Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
-						<State Id="2218728873" Name="CaveReverb_Disabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
-					</States>
-				</StateGroup>
 				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Music\Pause" GUID="{5D3C779C-8130-47C3-BFED-1E0641098106}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Music\Pause\None" GUID="{F12F1341-B1A1-414E-90DF-4D572B9DB180}"/>
